@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Bootstrap Visuilaiztion Dashboard</title>
+</head>
+
+<body>
+        <div class="navigation">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                        
+                        <a class="navbar-brand" style="background-color: #0BADA6; color: aliceblue; " href="index.html" role="button">Lattitude</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" 
+                                                aria-expanded="false">Plots</a>
+                        
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                                <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+                                                                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                                                                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                                                                <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+                                                        </div>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="Comparison.html">Comparison</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="Data.html">Data</a>
+                                        </li>
+                                </ul>
+                        </div>
+                </nav>
+        </div>
+        <div class="box" style="margin-left:30px; margin-right:30px;">
+                <h2>Comparison: Latitude vs X</h2>
+                <hr>
+                <h6>Click any plot to get in-depth analysis.</h6>
+                <div class="row">
+                        <div class="col-6" style="padding:15px;">
+                                <h4>vs. Max Temperature</h4>
+                                <a href="Max_Temperature.html">
+                                        <img src="Resources/assets/images/fig1.png">
+                                </a>
+                        </div>
+                        <div class="col-6" style="padding:15px;">
+                                <h4>vs. Humidity</h4>
+                                <a href="Humidity.html">
+                                        <img src="Resources/assets/images/fig2.png">
+                                </a>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-6" style="padding:15px;">
+                                <h4>vs. Cloudiness</h4>
+                                <a href="Cloudiness.html">
+                                        <img src="Resources/assets/images/fig3.png">
+                                </a>
+                        </div>
+                        <div class="col-6" style="padding:15px;">
+                                <h4>vs. Wind Speed</h4>
+                                <a href="Wind_Speed.html">
+                                        <img src="Resources/assets/images/fig4.png">
+                                </a>
+                        </div>
+                </div>
+        </div>
+        <footer>Copyright &copy; Mason Waters 2019</footer>
+</body>
+
+
+
+</html>

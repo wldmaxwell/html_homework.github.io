@@ -1,0 +1,59 @@
+body{
+    background-color: #D3D3D3;
+}
+.navigation .navbar-brand{
+    background-color: white;
+    margin-left:30px;
+    padding:inherit;
+    color: white;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px !important; 
+}
+
+.navbar{
+    background-color: white;
+}
+
+.box{
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom:40px;
+    padding:15px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.visual{
+    height: 50%;
+    width: 50%;
+}
+h3, h2, h4{
+    color: aqua;
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+footer{
+   background-color: gray;
+   color:white;
+   width:100%;
+   text-align: center;
+   min-height: 55px; 
+   position:fixed;
+   bottom:0;
+   padding-top:10px;
+   border-top: 5px;
+   border-top-style: solid;
+   border-top-color: rgb(0, 247, 255);
+}
